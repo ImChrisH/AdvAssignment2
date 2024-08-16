@@ -1,0 +1,149 @@
+body{
+    background-color: aquamarine;
+    background-image: url(./images/mountains.jpg);
+    background-size: 100%;
+    font-family: 'Helvetica', sans-serif;
+}   
+
+h2{
+    text-shadow:2.2px 1.2px black;
+
+}
+
+.wrap{
+    /* background-color: rgb(128, 128, 128); */
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.wrap a{
+    display:inline-block;
+    text-decoration: none;
+    background-color: rgba(111, 169, 255, 0.866);
+    padding:15px;
+    border-radius: 20px;
+    padding:20px;
+    box-shadow:3px 3px 3px 3px rgba(0, 0, 0, 0.411);
+    text-shadow: 1.1px 1.1px black;
+    color:rgb(106, 248, 255);
+     font-size:20px;
+    text-decoration: none;
+    }
+
+
+
+.wrap a:hover{
+    background-color: rgba(110, 110, 255, 0.773);
+    transition:.5s;
+}
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(1, 22, 131, 0.342);
+    visibility: hidden;
+    opacity: 0;
+    
+
+}
+
+.modal:target{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+
+.modalbody{
+    position: relative;
+    background:rgba(0, 92, 120, 0.827);
+    width:500px;
+    max-width: 90%;
+    padding:20px;
+    border-radius: 13px;
+}
+
+
+
+.close{
+    position: absolute;
+    top:10px;
+    right:10px;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:80%;
+    margin:auto;
+    
+}
+
+.poptions{
+    padding:4px;
+    font-size:20px;
+    /* background-color:green; */
+    background-color: rgb(18, 140, 248);
+    color: white;
+    border: 2px outset grey;
+    width: 50%;
+    text-shadow:1px 1px black;
+    border-radius: 12px;
+    
+
+}
+
+.poptions:hover{
+    background-color:rgba(12, 61, 103, 0.558);
+
+}
+
+form{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width:100%;
+    margin:auto;
+    border-radius: 12px;
+}
+
+input{
+    padding:1%;
+    width:80%;
+    /* text-align: center; */
+    background-color: grey;
+    color: rgb(219, 219, 219);
+    font-size:18px;
+    border-radius: 12px;
+}
+
+.text1{
+    width:45%;
+}
+
+.create{
+    background-color: rgba(18, 141, 248, 0.649);
+    color:white;
+    height:50px;
+    width:70%;
+    font-size: 20px;
+    border-radius: 12px;
+    text-shadow:1.2px 1.2px black;
+}
+
+.create:hover{
+    background-color:rgb(12, 60, 103);
+
+}
